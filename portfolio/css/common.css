@@ -171,6 +171,16 @@ span {
 	border-radius: 10px;
 }
 
+#page-top {
+    width: 63px; /* 画像横サイズ */
+    height:93px; /* 画像縦サイズ */
+    position: fixed;
+    bottom: 20px; /* 表示位置 */
+    right: 20px; /* 表示位置 */
+    background: url(../images/btn_pagetop.png) 0 0 no-repeat; /* 画像 */
+    cursor:pointer; /* マウスカーソルを変更 */
+}
+
 footer {
 	width: 100%;
 	height: 200px;
