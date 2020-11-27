@@ -176,8 +176,8 @@ address {
 }
 
 #page-top {
-    width: 75px; /* 画像横サイズ */
-    height:80px; /* 画像縦サイズ */
+    width: 90px; /* 画像横サイズ */
+    height: 90px; /* 画像縦サイズ */
     position: fixed;
     bottom: 5px; /* 表示位置 */
     right: 5px; /* 表示位置 */
