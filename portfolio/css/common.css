@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* モバイルファースト (全環境に共通のデザイン)  */
+a { /* 通常時リンク */
+	color:#fff;
+	text-decoration:none;
+}
+
+a:link { /* 未訪問リンク */
+	color:#fff;
+	text-decoration:none;
+}
+
+a:visited { /* 訪問済みリンク */
+	color:#fff;
+	text-decoration:none;
+}
+
+a:hover { /* マウスオーバー時リンク */
+	color:#71533F;
+	text-decoration:none;
+}
+
+a:active { /* クリック時リンク */
+	color:#00f;
+	text-decoration:underline;
+}
+/*
+↓ここからCSSを書いていく --------------------------------------------*/
+
+#wrap {
+	margin: 0 auto;
+}
+
+#loader-bg {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #000;
+    z-index:999999;
+}
+#loader {
+    display: none;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+    text-align: center;
+    color: #fff;
+    z-index:999999;
+}
+ 
+#loader p {
+    padding-top: 10px;
+}
+
+
+#header {
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 90px;
+	background-color: rgba( 255, 255, 255, 0.88 );
+}
+
+h1 {
+	padding: 30px;
+}
+
+#menu-box {
+	width: 100%;
+	height: auto;
+	background-color: #BE8A68;
+}
+
+#menu-box li {
+	width: 100%;
+	color: #fff;
+	padding: 16px 15px;
+	border-bottom: 1px dashed #333;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+}
+
+
+
+#top {
+	width: 100%;
+	height: 100vh;
+	background: url("../images/bg_top_01.svg") center center / cover no-repeat;
+	
+}
+
+main {
+	width: 100%;
+	height: auto;
+	margin: 0 auto 150px;
+	text-align: center;
+	padding: 0 25px;
+	color: #71533F;
+}
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 40px;
+	padding-top: 100px;
+	margin-bottom: 50px;
+	color: #BE8A68;
+}
+
+#about {
+	margin-bottom: 50px;
+}
+
+.about-text {
+	text-align: left;
+}
+
+figure {
+	margin-bottom: 35px;
+}
+
+figure img {
+	border: 2px solid #fff;
+	border-radius: 10px;
+}
+
+h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	margin-bottom: 20px;
+}
+
+span {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#portfolio {
+	margin-bottom: 50px;
+}
+
+.slider img {
+	border: 70px solid #fff;
+	border-radius: 10px;
+}
+
+.portfolio {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 50px;
+}
+
+.work {
+	width: 150px;
+	margin-bottom: 30px;
+}
+
+.work img {
+	border: 2px solid #fff;
+	border-radius: 5%;
+}
+
+.slider {
+	width: 100%;
+	border-radius: 10px;
+}
+
+footer {
+	width: 100%;
+	height: 200px;
+	background-color: #71533F;
+	color: #fff;
+	text-align: center;
+}
+
+.footer {
+	padding-top: 150px;
+}

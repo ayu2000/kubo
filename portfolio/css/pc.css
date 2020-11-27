@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* PC用に付け足すCSS（画面幅が960px以上になった時に追加するCSS） */
+
+#header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#top {
+	background: url("../images/bg_top_02.svg") center center / cover no-repeat;
+}
+
+main {
+	width: 1000px;
+}
+
+#menu-box {
+	background: rgba(0,0,0,0);
+	padding-right: 10px;
+	padding-top: 20px;
+}
+
+#menu-box ul {
+	display: flex;
+}
+
+#menu-box li {
+	border-bottom: none;
+}
+
+#menu-box li a {
+	color: #BE8A68;
+}
+
+#menu-box li a:link {
+	color: #BE8A68;
+}
+
+a:visited { /* 訪問済みリンク */
+	color:#BE8A68;
+	text-decoration:none;
+}
+
+#menu-box li a:hover {
+	color: #71533F;
+}
+
+.about {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+	padding: 30px;
+}
+
+.about-text {
+	width: 50%;
+	text-align: left;
+}
+
+.portfolio {
+	display: flex;
+	justify-content: space-between;
+}
