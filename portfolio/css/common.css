@@ -21,7 +21,7 @@ a:hover { /* マウスオーバー時リンク */
 }
 
 a:active { /* クリック時リンク */
-	color:#00f;
+	color:#fff;
 	text-decoration:underline;
 }
 /*
