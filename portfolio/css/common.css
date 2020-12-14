@@ -166,7 +166,11 @@ span {
 	border-radius: 5%;
 }
 
-a .site {
+.work a {
+	color:#71533F;
+}
+
+.work a:link {
 	color:#71533F;
 }
 
