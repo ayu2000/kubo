@@ -159,6 +159,7 @@ span {
 .work {
 	width: 150px;
 	margin-bottom: 30px;
+    font-size: 10px;
 }
 
 .work img {
@@ -167,29 +168,29 @@ span {
 }
 
 .work a {
-	color:#71533F;
+	color:#BE8A68;
 	text-decoration:underline;
 }
 
 .work a {
-	color:#71533F;
+	color:#BE8A68;
 	text-decoration:underline;
 }
 
 .work a:link {
-	color:#71533F;
+	color:#BE8A68;
 	text-decoration:underline;
 }
 
 
 .work a:visited { /* 訪問済みリンク */
-	color:#71533F;
+	color:#BE8A68;
 	text-decoration:none;
 }
 
 
 .work a:hover { /* マウスオーバー時リンク */
-	color:#BE8A68;
+	color:#71533F;
 	text-decoration:none;
 }
 
